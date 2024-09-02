@@ -14,7 +14,7 @@ API_HASH = "d79282cd9f9499f03080b82edc8ce84e"
 BOT_TOKEN = "6535760076:AAFqWdztCEke80iv96waJO4UCvJ2p5JUM8U"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://Vishnusoni14:Vishnu14@cluster0.op5kq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = "mongodb+srv://Vishnusoni14@Vishnu14.op5kq.mongodb.net/?retryWrites=true&w=majority"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/+AOTL3_ap-w9iMjM1"
-SUPPORT_GROUP = "https://t.me/+AOTL3_ap-w9iMjM1"
+SUPPORT_CHANNEL = "https://t.me/Loggroupofbot"
+SUPPORT_GROUP = "https://t.me/Loggroupofbot"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
